@@ -21,5 +21,6 @@
 
 - Methods of BigDecimal class: add(value), subtract(value), multiply(value), divide(value, scale, roundingMode), setScale(scale, roundingMode) -- set number of decimal places (scale) for BigDecimal object's value as well as rounding mode, doubleValue() -- this method lets you convert BigDecimal object's value to double value, toString() -- convert BigDecimal object's value to a string.
 - example for setScale() -- salesTax = salesTax.setScale(2, RoundingMode.HALF_UP);
+- https://www.tutorialspoint.com/java/math/bigdecimal_divideandremainder.htm
 
 - RoundingMode enumeration: 2 values are HALF_UP & HALF_EVEN. There are more. Look on BigDecimal's Java API Doc.
